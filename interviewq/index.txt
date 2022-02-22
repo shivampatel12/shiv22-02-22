@@ -1,0 +1,42 @@
+1. What are the different data types present in javascript?
+ans = there are two types of javascript datatypes 
+1.Primitive and 
+2.Non Primitive
+
+Primitive datatypes ;- these are the datatypes whose value cannot be once it get created
+primitive datatypes are ;-string ,number ,boolean,undefined ,null,biginit,
+
+Non primitive datatypes ;- these are the mutable datatypes whose value cannot be once it get created
+non-primitive datatypes are ;- array, object 
+
+2. if type of array is object  then how to detect an array in javascript ?
+ans = we can detect array by using Array.isarray([]) method and by [] instanceof Array .
+
+3. write a program two compare two array are equal or not 
+ans =  let arr1 = [1,2,3,4,5];
+let arr2 = [2,3,4,5,1]
+
+let arr = arr1.length arr2.length && 
+arr2.every((item)=>{
+    if (arr2.indexOf(item)>-1){
+        return(item = arr2[arr2.indexOf(item)])
+    }
+})
+
+4.Explain Implicit Type Coercion in javascript.
+ans = Type coersion in javascript is automatic conversion of value from one datatype to another datatype.
+it takes place when  the operands of expression are of different datatypes.
+example :- String coercion takes place while using the ‘ + ‘ operator. When a number is added to a string, 
+     the number type is always converted to the string type.
+
+5.Is javascript a statically typed or a dynamically typed language?
+ans => javascript  is a dynamically types language in a dynamically typed langusge the type of variable are 
+checked during runtime and in contrast to statically type language the type of variable are checkes during run time.
+
+6.What is NaN property in JavaScript?
+ans=> NaN propertise represents a "not a number" value . it indicates a value which is not a legal number.
+
+    
+
+
+
