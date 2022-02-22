@@ -16,7 +16,7 @@ ans = we can detect array by using Array.isarray([]) method and by [] instanceof
 ans =  let arr1 = [1,2,3,4,5];
 let arr2 = [2,3,4,5,1]
 
-let arr = arr1.length arr2.length && 
+let arr = (arr1.length ===arr2.length) && 
 arr2.every((item)=>{
     if (arr2.indexOf(item)>-1){
         return(item = arr2[arr2.indexOf(item)])
