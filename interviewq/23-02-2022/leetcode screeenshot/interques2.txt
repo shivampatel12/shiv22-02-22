@@ -1,0 +1,64 @@
+Q1. What are the features of JavaScript?
+ans=>  Features of javascript are :-
+javascriptis a  lightweight scripting language. //it gets converted to bytecode just as it’s about to run.
+2.javascript is the object oriented scripting language.
+3.It can handle date and time very effectively .
+4.it is case-sensitive language.
+5.javascript is a dynamically typed language.
+
+Q2. What is DOM?
+ans => DOM stands for Document object Model. 
+Dom is a programming interface for html and xml documents.
+when the browser tries to render a Html document it creates an object based on the Html document called DOM.
+using the dom we can manipulate or changes various elements inside the Html document.
+
+Q3. What is the purpose of ‘This’ operator in JavaScript?
+ans => The JavaScript this keyword refers to the object it belongs to. This has different values depending on where it is used.
+In a method, this refers to the owner  object and in a function, this refers to the global object.
+
+Q4. What is the difference between null & undefined?
+ans =>Undefined means a variable has been declared but has not yet been assigned a value. On the other hand, 
+null is an assignment value. It can be assigned to a variable as a representation of no value. 
+Also, undefined and null are two distinct types: undefined is a type itself (undefined) while null is an object.
+
+Q5.How can I remove a specific item from an array?
+Ans=
+const array = [2, 5, 9];
+const index = array.indexOf(5);
+if (index > -1) {
+  array.splice(index, 1);
+}
+ array = [2, 9]
+console.log(array); 
+
+let value = 3
+let arr = [1, 2, 3, 4, 5, 3]
+arr = arr.filter(item => item !== value)
+console.log(arr)
+[ 1, 2, 4, 5 ]
+
+Q6.What will indexof return if value is not found?
+ans =>indexOf(element) returns the index of the element in the array. 
+It was designed to return -1 when the element doesn't exist,
+because 0 would mean that the element is in the 0th index (1st element).
+
+Q7.what is Hoisting?
+ans=>Hoisting is a default behaviour of javascript where all the variable and 
+function declarations are moved on top.
+This means that irrespective of where the variables and functions are declared, 
+they are moved on top of the scope. The scope can be both local and global.
+
+Q8.Difference between “ == “ and “ === “ operators.
+ans=> Both are comparison operators. The difference between both the operators is that,
+ while using the ‘==’ operator, coercion takes place.The ‘==’ operator, converts both the operands to the same type and then compares them. whereas, and 
+“ === “ is used to compare both value and types and Coercion does not take place when using the ‘===’ operator
+
+Q9.Explain passed by value and passed by reference ?
+ans=> In JavaScript, primitive data types are passed by value and non-primitive data types are passed by reference.
+
+Q10.  Explain Higher Order Functions in javascript.
+ans=> Functions that operate on other functions, either by taking them as arguments or by returning them, are called higher-order functions.
+     
+Q11. What is the difference between Attributes and Property?
+ans=> Attributes-  provide more details on an element like id, type, value etc.
+      Property-  is the value assigned to the property like type=”text”, value=’Name’ etc.
