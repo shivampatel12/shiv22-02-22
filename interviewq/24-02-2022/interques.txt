@@ -1,0 +1,57 @@
+1. What is the use of promises in javascript?
+Promises are used to handle asynchronous operations in javascript.
+Before promises, callbacks were used to handle asynchronous operations. But due to limited functionality of callback, 
+using multiple callbacks to handle asynchronous code can lead to unmanageable code.
+
+Promise object has four states -
+
+Pending - Initial state of promise. This state represents that the promise has neither been fulfilled nor been rejected, 
+it is in the pending state.
+Fulfilled - This state represents that the promise has been fulfilled, meaning the async operation is completed.
+Rejected - This state represents that the promise has been rejected for some reason, meaning the async operation has failed.
+Settled - This state represents that the promise has been either rejected or fulfilled.
+
+
+2. What is the use of a constructor function in javascript?When do we use constructor functions?
+ans => Constructor functions are used to create objects in javascript.
+If we want to create multiple objects having similar properties and methods, constructor functions are used.
+
+3.What are some of the built-in methods in JavaScript?
+ans => Date() = represents the present and time 
+      concat( ) = join two strings and returns the new strings
+      push() = adds an item to an array 
+      pop() = removes and also return the last element of an array 
+      length() = returns the length of a string 
+
+
+4.  What are the conventions of naming a variable in JavaScript?
+ans => Following are the naming conventions for a variable in JavaScript:-
+
+
+1.Variable names cannot be similar to that of reserved keywords. For example, var, let, const, etc.
+2.Variable names cannot begin with a numeric value. They must only begin with a letter or an underscore character.
+3.Variable names are case-sensitive.
+
+
+5. What are the arrow functions in JavaScript?
+ans => Arrow functions are a short and concise way of writing functions in JavaScript. 
+
+
+6. What are Closures in JavaScript?
+ans => Closures provide a better, and concise way of writing JavaScript code for the developers and programmers.
+Closures are created whenever a variable that is defined outside the current scope is accessed within the current scope.
+
+
+7. What is the difference between undeclared & undefined?
+ans => Undeclared variables are those that do not exist in a program and are not declared. 
+       If the program tries to read the value of an undeclared variable, then a runtime error is encountered. 
+
+    Undefined variables are those that are declared in the program but have not been given any value. 
+    If the program tries to read the value of an undefined variable, an undefined value is returned.
+
+
+8. What is the ‘Strict’ mode in JavaScript and how can it be enabled?
+Strict mode is a way to introduce better error-checking into your code.
+You can enable strict mode by adding “use strict” at the beginning of a file, a program, or a function.   
+
+
